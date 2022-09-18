@@ -14,7 +14,7 @@ function onCteateGalleryContainer(items) {
         preview,
         original,
         description,
-      }) => `<a class="gallery__item" href="${original}" >/  <img class="gallery__image" src="${preview}" alt="${description}" />
+      }) => `<a class="gallery__item" href="${original}" ><img class="gallery__image" src="${preview}" alt="${description}" />
  </a>`
     )
     .join("");
